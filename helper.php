@@ -66,9 +66,9 @@ class modBitcoinPricesHelper
 			exit;
 		}
 		if (!$error) {
-			if ($jsonfile = "bitcoincharts"){
+			if ($jsonfile == "bitcoincharts"){
 				return $json[$btccurrency][$btctime];
-			} elseif ($jsonfile = "bitcoinaverage"){
+			} elseif ($jsonfile == "bitcoinaverage"){
 				return $json[last];
 			}
 		}
