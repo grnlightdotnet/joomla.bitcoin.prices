@@ -21,7 +21,8 @@ Error_Reporting(E_ERROR);
 
 $btc_currency = $params->get('btc_currency');
 $btc_time = $params->get('btc_time');
+$json_file = $params->get('json_file');
 
-$bitcoinprices = modBitcoinPricesHelper::getBitcoinPrices($btc_currency, $btc_time);
+$bitcoinprices = modBitcoinPricesHelper::getBitcoinPrices($btc_currency, $btc_time, $json_file);
 require( JModuleHelper::getLayoutPath( 'mod_bitcoinprices' ) );
 ?>
