@@ -9,7 +9,7 @@
 	<license>GNU GPL v3</license>
     <description>
 	A simple module displaying weighted bitcoin prices from BitcoinCharts.com
-	<![CDATA[ <br /> <b>If you found this module useful, please consider donating: <a href="bitcoin:1DsJTEDj7LdfkDx8jhKGwn2wGXDNZ8iGHu">1DsJTEDj7LdfkDx8jhKGwn2wGXDNZ8iGHu</a><br />
+	<![CDATA[ <br /> <b>If you found this module useful, please consider donating: <a href="bitcoin:1DsJTEDj7LdfkDx8jhKGwn2wGXDNZ8iGHu">1DsJTEDj7LdfkDx8jhKGwn2wGXDNZ8iGHu</a></b><br />
 		<br /><a href="http://www.grnlight.net/index.php/bitcoin-prices-module">Help and Documentation</a><br />
 		<br />
 		<b>Getting Started:</b><br />
@@ -17,6 +17,8 @@
 		Click on the "Bitcoin Pricing" module.<br />
 		Choose Position, change Status to "Published", and change Module Assignment.<br />
 		Save.<br />
+		<br />
+		<b><i>*Please note that if BitcoinAverage is selected time is ONLY the last 24 hours and currency is ONLY USD.</i></b><br />
 		]]>
 	</description>
     <files>
@@ -65,7 +67,6 @@
 		  <option value="7d">7 days</option>
 		  <option value="30d">30 days</option>	
 		</field>
-		<i>*Please note that if BitcoinAverage is selected time is ONLY the last 24 hours and currency is ONLY USD.</i><br />
 		<field name="json_file" type="list" default="bitcoincharts" label="Select source" description="Select the source for bitcoin pricing.">
 		  <option value="bitcoincharts">BitcoinCharts.com</option>	
 		  <option value="bitcoinaverage">BitcoinAverage.com</option>
